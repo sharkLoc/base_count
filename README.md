@@ -3,15 +3,15 @@ fasta 文件统计工具
 
 
 ## install
-install rust first
-`
+>install rust first
+```
 git clone https://github.com/sharkLoc/base_count.git && cd base_count
 cargo b --release
-`
+```
 
 
 ## usage
-`
+```
 ./target/release/base_count --help
 Count_ATGC 0.1.0
 sharkLoc
@@ -27,11 +27,11 @@ FLAGS:
 OPTIONS:
     -f, --fasta <fasta>    path to fasta file name
     -o, --out <out>        output file name [default: summary.txt]
-`
+```
 
 
 ## result
-`
+```
 chr_Name	base_A	base_T	base_G	base_C	base_N	GC_Rate	seq_Len
 1	67070277	67244164	48111528	48055043	18475410	38.63%	248956422
 2	71791213	71987932	48450903	48318180	1645301	39.96%	242193529
@@ -60,4 +60,4 @@ Y	7155845	7217789	4630489	4632232	33591060	16.19%	57227415
 MT	5124	4094	2169	5181	1	44.36%	16569
 ALL	866423646	869204287	600858720	598390340	153409408	38.83%	3088286401
 
-`
+```
